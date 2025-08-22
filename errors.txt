@@ -1,0 +1,35 @@
+Ques1:
+at Function._resolveFilename (node:internal/modules/cjs/loader:1225:15)
+    at Function._load (node:internal/modules/cjs/loader:1055:27)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
+    at Module.require (node:internal/modules/cjs/loader:1311:12)
+    at require (node:internal/modules/helpers:136:16)
+    at Object.<anonymous> (D:\BACKEND_LAB\streams_demo\app.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ 'D:\\BACKEND_LAB\\streams_demo\\app.js' ]
+
+
+  
+Ques5:
+cd : Cannot find path 'D:\BACKEND_LAB\streams_demo\BACKEND_LAB' because it does not exist.
+At line:1 char:1
++ cd BACKEND_LAB
++ ~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (D:\BACKEND_LAB\streams_demo\BACKEND_LAB:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+
+    
+Github Upload:
+To https://github.com/anuja-kotnala/BACKEND_LAB
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/anuja-kotnala/BACKEND_LAB'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
